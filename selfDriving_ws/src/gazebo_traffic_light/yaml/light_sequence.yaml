@@ -1,0 +1,4 @@
+light_sequence:
+  - {color: 'red', duration: 6, flashing: false}
+  - {color: 'green', duration: 2, flashing: false}
+  - {color: 'yellow', duration: 1, flashing: false}
