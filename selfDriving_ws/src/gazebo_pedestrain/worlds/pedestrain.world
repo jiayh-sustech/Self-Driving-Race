@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <actor name="animated_box">
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.05 0.05 0.05</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+      <script>
+        <loop>true</loop>
+        <delay_start>5</delay_start>
+        <auto_start>true</auto_start>
+        <trajectory id="0" type="square">
+          <waypoint>
+             <time>0.0</time>
+             <pose>-2 0 0 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+             <time>5.0</time>
+             <pose>2 0 0 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+             <time>10.0</time>
+             <pose>-2 0 0 0 0 0</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+  </world>
+</sdf>
