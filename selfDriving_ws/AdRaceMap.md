@@ -13,3 +13,6 @@ Instruction on how to launch gazebo simulation with the autonomous driving race 
 * Source the workspace.
 * Run the launch file ```roslaunch limo_gazebo_sim limo_ackerman_ad_map.launch```.
 
+## TODO
+* Fix the problem: the map will blink.
+
