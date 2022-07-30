@@ -1,0 +1,2 @@
+set(limo_base_MESSAGE_FILES "/home/lzj/Workspaces/CS401/ADRace/Self-Driving-Race/selfDriving_ws/src/limo/limo_base/msg/LimoStatus.msg")
+set(limo_base_SERVICE_FILES "")

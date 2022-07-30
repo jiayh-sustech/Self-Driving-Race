@@ -1,0 +1,8 @@
+prefix=/home/lzj/Workspaces/CS401/ADRace/Self-Driving-Race/selfDriving_ws/devel
+
+Name: gazebo_traffic_light
+Description: Description of gazebo_traffic_light
+Version: 0.0.0
+Cflags: -I/home/lzj/Workspaces/CS401/ADRace/Self-Driving-Race/selfDriving_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

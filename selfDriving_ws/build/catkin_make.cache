@@ -1,0 +1,2 @@
+gazebo_pedestrain:gazebo_traffic_light:limo/limo_base:limo/limo_bringup:limo/limo_description:limo/limo_gazebo_sim
+-DCATKIN_DEVEL_PREFIX=/home/lzj/Workspaces/CS401/ADRace/Self-Driving-Race/selfDriving_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lzj/Workspaces/CS401/ADRace/Self-Driving-Race/selfDriving_ws/install -G Unix Makefiles

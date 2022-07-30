@@ -1,0 +1,8 @@
+prefix=/home/lzj/Workspaces/CS401/ADRace/Self-Driving-Race/selfDriving_ws/install
+
+Name: gazebo_pedestrain
+Description: Description of gazebo_pedestrain
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
